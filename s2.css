@@ -1,0 +1,19 @@
+body{
+    background-color: cornsilk;
+    color: black;
+    margin: 5px;
+    padding: 2px;
+}
+header {
+    text-align: center;
+background-color: azure;
+}
+footer {
+    text-align: center;
+    background-color: gainsboro;
+}
+h3 {
+    text-align: center;
+    background-color: grey;
+    border-width: 3px;
+}
