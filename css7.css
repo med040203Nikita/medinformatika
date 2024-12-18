@@ -1,0 +1,85 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #333; /* Темный фон для всей страницы */
+    color: #fff; /*Белый цвет текста на темном фоне */
+}
+
+header {
+    padding: 0.5em;
+    background-color: #444; /* Сделаем немного светлее header */
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.7em;
+     margin-left: 10px;
+}
+
+.main-nav{
+  display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.main-nav table {
+    border-collapse: collapse;
+     margin: 0 auto;
+}
+ .main-nav td {
+    padding: 5px;
+    border: 1px solid #555; /* Границы у таблицы стали светлее */
+    white-space: nowrap;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #ddd; /* Сделал цвет ссылок светлее*/
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.main-nav a:hover {
+      color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+article section {
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-bottom: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+article p:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+article h2, article h3 {
+    border-bottom: 1px solid #555;/* Граница под заголовками стала светлее */
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+}
+
+
+@media (min-width: 768px) {
+    .main-content{
+       margin: 20px auto;
+       max-width: 900px;
+        padding: 20px;
+    }
+}
