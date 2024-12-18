@@ -5,13 +5,13 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: #333; /* Темный фон для всей страницы */
-    color: #fff; /*Белый цвет текста на темном фоне */
+    background-color: #333;
+    color: #fff;
 }
 
 header {
     padding: 0.5em;
-    background-color: #444; /* Сделаем немного светлее header */
+    background-color: #444;
     display: flex;
     align-items: center;
 }
@@ -32,13 +32,13 @@ header h1 {
 }
  .main-nav td {
     padding: 5px;
-    border: 1px solid #555; /* Границы у таблицы стали светлее */
+    border: 1px solid #555; 
     white-space: nowrap;
 }
 
 .main-nav a {
     text-decoration: none;
-    color: #ddd; /* Сделал цвет ссылок светлее*/
+    color: #ddd; 
      transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -69,7 +69,7 @@ article p:hover{
 }
 
 article h2, article h3 {
-    border-bottom: 1px solid #555;/* Граница под заголовками стала светлее */
+    border-bottom: 1px solid #555;
     padding-bottom: 3px;
     margin-bottom: 8px;
     font-size: 1.1em;
