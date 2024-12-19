@@ -1,0 +1,40 @@
+body{
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    text-align: center;
+background-color: rgb(130, 130, 130);
+}
+footer::first-letter{
+    font-size: 120%;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+    background-color: rgb(112, 112, 112);
+    border-width: 3px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: black;
+}
+h2{ text-align: end;
+}
+
+h1{ 
+    color: white;
+    font-size: 50px;
+padding-top: 260px;
+padding-bottom: 160px;
+
+}
+
+header{
+     background-color: rgb(78, 214, 255);
+    }
+p{
+    font-size: 100%;
+}
